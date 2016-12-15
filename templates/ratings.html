@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="bus-margins">
+  <div class="circle circle-border">
+     <div class="circle-inner">
+         <div class="score-text">
+         {{ rated_bus }} 
+         </div>
+        </div>
+    </div>
+  </div>
+ 
+ 
+
+
+<div class="margins">
+
+{% if "user_id" in session %}
+    {% if user_rating %}
+        <p class="rating-text">You currently rate this bus:</p><p class="score">{{ score }}</p>
+    {% endif %}
+      <form action="/ratings" method="POST" id="usrform"  name="star">
+  
+    <fieldset class="rating">
+    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
+    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>
+    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>
+    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
+    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+</fieldset>
+  
+
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <strong class="choice">Choose a rating</strong><br><br>
+          <div class="checkbox">
+          <input type="checkbox" name="filters" value="awc"> The Crowded Bus<br>
+          <input type="checkbox" name="filters" value="awl"> Arrives Every Blue Moon<br>
+          <input type="checkbox" name="filters" value="sdn"> Stops That Throw You From Your Seat<br>
+          <input type="checkbox" name="filters" value="aol"> Agressive Old Ladies<br>
+          <input type="checkbox" name="filters" value="lnp"> Late Night Party Bus<br>
+          <input type="checkbox" name="filters" value="hdr"> Hot Drivers<br>
+          <input type="checkbox" name="filters" value="mdr"> Mean Drivers<br>
+          <input type="checkbox" name="filters" value="tcb"> Best Tour of the City Bus<br>
+          <input type="checkbox" name="filters" value="tdb"> Tidy Bus<br>
+          <input type="checkbox" name="filters" value="cty"> Crusty Bus<br>
+          <input type="checkbox" name="filters" value="pwk"> Packed with Kids<br>
+          <input type="checkbox" name="filters" value="dpt"> Departs as You Get to Stop<br>
+          <input type="checkbox" name="filters" value="wss"> Will Skip Your Stop<br>
+          <input type="checkbox" name="filters" value="mls"> Has Mystery Liquid in Seats<br>
+          </div>
+
+          <br>
+          <br>
+
+          <textarea placeholder= "Add your acclamations or condemnations here" rows="4" cols="50" name="comments" form="usrform"></textarea> <p class="small-text">max 140 characters</p>
+          <br>
+          <br>
+          <input type="submit" class="better-btn" value="Add your rating">
+          </form>
+ </div>
+
+
+
+{% endif %}
+
+
+
+
+
+{% endblock %}

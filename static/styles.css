@@ -1,0 +1,866 @@
+
+
+
+.button{
+    background-color: #E24549;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button-name{
+    background-color: #E24549;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+.bus-margins{
+    padding: 40px 10px 10px 10px;
+}
+
+.navbar{
+  background-color: #E24549;
+  border: none;
+}
+.navbar-inverse{
+  background-color: #E24549;
+  border: none;
+}
+
+.navbar-fixed-top{
+background-color: #E24549;
+
+}
+
+.navbar-toggle{
+background-color: #E24549;
+border: white;
+}
+.navbar-toggle:focus{
+background-color: #E24549;
+border: white;
+}
+
+.navbar{
+  background-color: #E24549;
+  border: white
+}
+
+@font-face {
+    font-family: 'intro_regular';
+    src: url('/static/fonts/intro-webfont.woff2') format('woff2'),
+         url('/static/fonts/intro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'intro_inlineregular';
+    src: url('/static/fonts/intro_inline-webfont.woff2') format('woff2'),
+         url('/static/fonts/intro_inline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#buspick {
+    padding: 10px 10px 10px 10px;
+}
+
+#geolocation {
+    color:#08615E;
+}
+
+.dropdown-style  {
+    padding: 10px 10px 10px 0px;
+    color:#08615E;
+}
+
+
+.homepage-info{
+    padding: 0px 50px 0px 0px;
+}
+
+.copy{
+    padding: 10px 20px 1px 10px;
+}
+
+#bus_number{
+    padding: 10px 20px 1px 10px;
+    font-size:120px;
+}
+#busimage{
+    height: 250px; 
+    width: 550px; 
+}
+
+.choice {
+  color:black;
+}
+
+
+
+.small-text{
+  font-family: 'Raleway', sans-serif;
+}
+
+.checkbox {
+  color:#08615E;
+}
+
+.score{
+  color:#08615E;
+  font-size:40px;
+}
+
+
+.page_title{
+  font-family: 'intro_inlineregular';
+  font-size:120px;
+  color:#08615E;
+  padding: 10px 0px 50px 0px;
+}
+
+.sec-head{
+  font-family: 'Open Sans Condensed:700', sans-serif;
+  font-size:30px;
+  color:#FF6B6B;
+}
+
+#numbers{
+  font-family: 'Open Sans Condensed:700', sans-serif;
+  font-size:30px;
+  color:#FF6B6B;
+}
+
+.text-center{
+  padding: 50;
+}
+
+#pageheader{
+  font-family: 'intro_regular';
+  font-size:30px;
+  color:#FF6B6B;
+}
+
+.bus_pick{
+  font-family: 'intro_regular';
+  font-size:30px;
+  color:#FF6B6B;
+  padding: 10px 10px 10px 0px;
+}
+
+
+
+.cust-quotes {
+  width: 640px;
+  height:100px;
+  position:relative;
+
+}
+
+.cust-quotes blockquote {
+  position: absolute;
+  top: 50px;
+  bottom: 150px;
+  left: 0px;
+  right: 0px;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0.5s ease-out 0s, transform 0.5s ease-in 0s;
+}
+
+.cust-quotes blockquote:first-child + blockquote {
+    opacity: 1;
+    z-index: 1;
+    transition: opacity 1.6s ease 0s;
+}
+.cust-quotes blockquote p{
+  font-size:24px;
+  font-weight:normal;
+  font-family: 'Raleway', sans-serif;
+  color:#FF6B6B;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+#testimonials {
+  margin:0 auto;
+  width:600px;
+  padding: 25px 5px 45px 5px;
+
+}
+
+/*HOMEPAGE*/
+
+/*BUSDETAIL*/
+
+.businfo{
+  padding: 10px 10px 1px 10px;
+}
+
+.ratings{
+  padding: 0px 10px 0px 55px;
+  color:#08615E;
+  font-size: 140px;
+}
+.ratings1{
+  padding: 0px 10px 0px 55px;
+  color:#FF6B6B;
+  font-size: 140px;
+}
+
+
+#ratedBus{
+  padding: 10px 10px 0px 00px;
+  color: black;
+
+}
+
+.ratingserif{
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0px 10px 0px 50px;
+
+}
+
+.ratingserif1{
+  font-family: 'Raleway', sans-serif;
+  font-size:15px;
+  font-size:15px;padding: 0px 10px 0px 50px;
+
+
+}
+
+.ratingserif2{
+  font-family: 'intro_regular';
+  font-size:25px;
+  font-size:15px;
+  padding: 0px 10px 0px 35px;
+
+
+}
+
+.chartborder {
+    padding: 2px 2px 2px 2px;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+.comment-name{
+  font-size:24px;
+  font-weight:normal;
+  font-family: 'Raleway', sans-serif;
+  color:#FF6B6B;
+
+
+}
+
+/*BUSDETAIL*/
+
+
+/*USER PAGE*/
+
+.name_info{
+  padding: 10px 10px 1px 10px;
+}
+/*USER PAGE*/
+
+
+/*WEATHER*/
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  padding: 250px 0;
+  font-family: 'intro_regular';
+}
+
+#weather {
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 45px 0px 0px 5px;
+}
+
+i {
+  color: #FF6B6B;
+  font-family: weather;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+  text-transform: none;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #FF6B6B;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+  background: #FF6B6B;
+  background: rgba(255,255,255,0.90);
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather .currently {
+  margin: 30px 20px;
+  text-align: center;
+}
+
+/*/*//*BASE *########################################*/
+
+body {
+          padding-top: 50px;
+          position: relative;
+      }
+      
+      pre {
+          tab-size: 8;
+      }
+      
+      @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container.out{
+              left:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:200px;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+      }
+
+
+      /*TALK BUBBLES###################################
+
+      /* CSS talk bubble */
+.container {
+  padding: 5% 5%;
+  display: inline-block;
+}
+
+/* CSS talk bubble */
+.talk-bubble {
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: auto;
+  background-color: #FF6B6B;
+}
+.border{
+  border: 8px solid #FE999C;
+}
+.round{
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+
+}
+
+
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #FE999C transparent transparent #FE999C;
+}
+.tri-right.btm-left-in:after{
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: #FF6B6B transparent transparent #FF6B6B;
+}
+
+
+
+.talktext{
+  padding: 1em;
+  text-align: center;
+  line-height: 1.5em;
+  list-style: none;
+  font-size: 20px;
+  color: white;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+
+/*RATINGS################################*/
+
+
+.rating {
+    float:left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:1 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:350%;
+    line-height:1.2;
+    color:#ddd;
+  
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #FE999C;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #E24549;
+  
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #FE999C;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+/*STAR RATING#############################*/
+
+
+
+
+
+/*BUSNUMBER##########################*/
+.circle {
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+width: 20%;
+position: relative;
+background-color: #08615E;
+}
+
+.circle-solid{
+background-color: #CA1F23;
+}
+
+.circle:before {
+content: "";
+display: block;
+padding-top: 100%;
+
+}
+
+.circle-inner {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+text-align: center;
+}
+
+
+.score-text {
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+height: 3vw;
+line-height: 3vw;
+font-size: 5vw;
+color: white;
+}
+
+/*BUSS-ARRIVAL###########################*/
+
+/*Font Loded*/
+#registers:link {
+    color: #08615E;
+}
+#logbox1 {
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+text-align: center;
+color: #08615E;
+
+}
+
+#logbox {
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+text-align: center;
+color: #08615E;
+
+}
+
+.inputButton{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font: bold;
+
+}
+.input{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font: bold;
+  padding: 3px 3px 3px 3px;
+
+}
+
+#login_id:link {
+    color: #08615E;
+}
+
+#login_id:visited {
+    color: #08615E;
+}
+
+#average:link {
+    color: #08615E;
+    font-family: 'Raleway', sans-serif;
+     padding: 3px 3px 15px 50px;
+}
+
+#average:visited {
+    color: #08615E;
+    font-family: 'Raleway', sans-serif;
+     padding: 3px 3px 15px 50px;
+}
+
+#registers:visited {
+    color: #08615E;
+}
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+.modal{
+  color: black;
+  font-size: 18px;
+  font-family: 'intro_inlineregular';
+}
+.btn-custom {
+  color: #bdc3c7;
+  font-size: 18px;
+  border: 1px solid #bdc3c7;
+}
+.btn-custom:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+#pricing-table {
+  padding-top: 30px;
+}
+#pricing-table .pricing {
+  margin: 0;
+  padding: 0;
+  font-family: 'intro_inlineregular';
+}
+#pricing-table .pricing .pricing-table {
+  padding-bottom: 30px;
+}
+#pricing-table .pricing .pricing-table .pricing-header {
+  position: relative;
+  background: #08615E;
+  padding: 22px 22px;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-title {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate {
+  font-size: 90px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate sup {
+  font-size: 12px;
+  position: relative;
+  top: -30px;
+  color: #bdc3c7;
+
+}
+#pricing-table .pricing .pricing-table .pricing-header .pricing-rate span {
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+#pricing-table .pricing .pricing-list {
+  padding: 10px 0 10px 0;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+}
+#pricing-table .pricing .pricing-list ul {
+  padding: 0px;
+  display: table;
+  margin: 0px auto;
+}
+#pricing-table .pricing .pricing-list ul li {
+  list-style: none;
+  border-bottom: 1px solid #EAECEB;
+  color: #bdc3c7;
+  font-size: 12px;
+  line-height: 42px;
+  font-family: 'Raleway', sans-serif;
+
+}
+#pricing-table .pricing .pricing-list ul li:last-child {
+  border: none;
+}
+#pricing-table .pricing .pricing-list ul li i {
+  margin-right: 12px;
+  color: #bdc3c7;
+  font-family: 'Raleway', sans-serif;
+
+}
+#pricing-table .pricing .pricing-list ul li span {
+  color: #34495e;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+
+/*TOPRATED####################*/
+
+/*BUSNUMBER##########################*/
+body{margin:20px;}
+
+.checkbox{
+  padding: 10px 16px 4px 15px;
+}
+
+.btn-circle.btn-xl {
+  width: 100px;    
+  padding: 10px 16px 4px 15px;
+  font-size: 21px; 
+  line-height: 4 ;
+  border-radius: 50px;
+  border-color: #08615E;
+  background-color: #08615E;
+}
+
+/*DROPDOWN#####################*/
+
+button {
+    background-color: #08615E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.inputButton{
+    background-color: #08615E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.better-btn
+{
+    background-color: #08615E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#signup{
+  padding: 1px 1px 1px 1px;
+}
+
+canvas {
+  padding: 30px 0px 0px 0px;
+  max-width: 40%;
+  display: inline;
+}
